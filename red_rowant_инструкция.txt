@@ -1,5 +1,4 @@
 Инструкция по запуску автотеста red_rowant.side:
-
 1. Загрузить файл автотеста на локальный компьютер.
 2. Установить в браузер плагин Selenium IDE (например, для Chrome: https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd).
 3. Запустить плагин в браузере.
