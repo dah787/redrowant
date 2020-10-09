@@ -206,8 +206,31 @@
       ],
       "value": ""
     }, {
+      "id": "3a7bc260-8fb7-4ad8-90a2-f12f805b12ee",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.Sales__Item",
+      "targets": [
+        ["css=.Sales__Item", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "b949431b-291b-4c10-ba10-5dcfd4a7b46d",
+      "comment": "14. Проверить корректность текста заголовка бонусной программы на странице.",
+      "command": "verifyText",
+      "target": "css=.Sales__Title",
+      "targets": [
+        ["css=.Sales__Title", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": "Бонусная программа"
+    }, {
       "id": "32be342d-742f-4cff-90fc-7df2d2ce7d15",
-      "comment": "14. Нажать ссылку Реферальная программа.",
+      "comment": "15. Нажать ссылку Реферальная программа.",
       "command": "click",
       "target": "linkText=Реферальная программа",
       "targets": [
@@ -219,6 +242,24 @@
         ["xpath=//a[contains(.,'Реферальная программа')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "6ca0cb1f-ea5d-432d-b61a-50b12b76f7e9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.Sales__Item",
+      "targets": [
+        ["css=.Sales__Item", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "3d99fc35-ab95-4c12-978e-d404c0450abc",
+      "comment": "16. Проверить корректность текста заголовка реферальной программы на странице.",
+      "command": "verifyText",
+      "target": "css=.Sales__Title",
+      "targets": [],
+      "value": "Реферальная программа «Приведи друзей»"
     }]
   }, {
     "id": "89684e10-316d-4192-964a-905f2299782d",
