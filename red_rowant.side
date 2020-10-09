@@ -1,0 +1,288 @@
+{
+  "id": "6a13b118-16b3-4a87-abdd-0c5339e947f5",
+  "version": "2.0",
+  "name": "Red\nRowant,&nbsp;ТЗ на\nвакансию Тестировщик ПО",
+  "url": "https://kistochki.ru",
+  "tests": [{
+    "id": "da0442f9-b9f9-4fba-8e0d-478d95a61cb5",
+    "name": "2.1.Открытие блоков услуг раздела Акции, разделов бонусной и реферальной программ",
+    "commands": [{
+      "id": "cf99513e-e39e-4434-87db-aebba97a5b1a",
+      "comment": "1. Перейти по ссылке https://kistochki.ru/akcii.",
+      "command": "open",
+      "target": "/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "567497c4-e687-4a8f-ad0d-6e058749c6e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1080x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7d9d6a1-0a88-47f6-b7e1-eea9f67c5162",
+      "comment": "2. Нажать изображение первой услуги.",
+      "command": "click",
+      "target": "css=.CardPopular:nth-child(1) > .CardPopular__Picture",
+      "targets": [
+        ["css=.CardPopular:nth-child(1) > .CardPopular__Picture", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1e48277-8694-474d-9ec9-0d6462bd40b1",
+      "comment": "3. Нажать ссылку Акции.",
+      "command": "click",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89e03ff0-e572-4c72-ac75-8b49e1c1b0f6",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.CardPopular:nth-child(2) > .CardPopular__Picture",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "035de61c-062c-4121-8b0a-98a62ca38697",
+      "comment": "4. Нажать изображение 2-ой услуги.",
+      "command": "click",
+      "target": "css=.CardPopular:nth-child(2) > .CardPopular__Picture",
+      "targets": [
+        ["css=.CardPopular:nth-child(2) > .CardPopular__Picture", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3bb086c-be72-43f0-909b-b1684db8e7a1",
+      "comment": "5. Нажать ссылку Акции.",
+      "command": "click",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a752e8b5-7d3d-437f-a5c9-8e4885fab54d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.CardPopular:nth-child(3) > .CardPopular__Picture",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "22d14432-72e0-4e36-9d8d-33be868f05bf",
+      "comment": "6. Нажать изображение 3-ой услуги.",
+      "command": "click",
+      "target": "css=.CardPopular:nth-child(3) > .CardPopular__Picture",
+      "targets": [
+        ["css=.CardPopular:nth-child(3) > .CardPopular__Picture", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "664bb1d8-fe6e-497a-987f-d58f0bd684b8",
+      "comment": "7. Нажать ссылку Акции.",
+      "command": "click",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45d45a19-96b7-46f9-a08c-0b6be8a306de",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.CardPopular:nth-child(4) > .CardPopular__Picture",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "7a5ff54d-8fd1-4728-a4f4-5119f3254e28",
+      "comment": "8. Нажать изображение 4-ой услуги.",
+      "command": "click",
+      "target": "css=.CardPopular:nth-child(4) > .CardPopular__Picture",
+      "targets": [
+        ["css=.CardPopular:nth-child(4) > .CardPopular__Picture", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "504f786d-9b77-49f8-8bc5-b00bfdc59a46",
+      "comment": "9. Нажать ссылку Акции.",
+      "command": "click",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbc5ffc8-e5a6-45ac-84d5-6ceb5b53f804",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.CardPopular:nth-child(5) > .CardPopular__Picture",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "7a7d947a-bfc6-414a-854f-ef81baf44eca",
+      "comment": "10. Нажать изображение 5-ой услуги.",
+      "command": "click",
+      "target": "css=.CardPopular:nth-child(5) > .CardPopular__Picture",
+      "targets": [
+        ["css=.CardPopular:nth-child(5) > .CardPopular__Picture", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f0ac7b9-d772-4b33-a0bf-93970b716934",
+      "comment": "11. Нажать ссылку Акции.",
+      "command": "click",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60457d42-edb1-4159-9e7d-f1c38e70bc0e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.CardPopular:nth-child(6) > .CardPopular__Picture",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "0fb3dbd1-6c93-433f-8812-e0285d279e05",
+      "comment": "12. Нажать изображение 6-ой услуги.",
+      "command": "click",
+      "target": "css=.CardPopular:nth-child(6) > .CardPopular__Picture",
+      "targets": [
+        ["css=.CardPopular:nth-child(6) > .CardPopular__Picture", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d0b9186-faec-4192-b27a-6c29be0420b2",
+      "comment": "13. Нажать ссылку Бонусная программа.",
+      "command": "click",
+      "target": "linkText=Бонусная программа",
+      "targets": [
+        ["linkText=Бонусная программа", "linkText"],
+        ["css=.AsideNav__Item:nth-child(2) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/bonusnaya-programma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32be342d-742f-4cff-90fc-7df2d2ce7d15",
+      "comment": "14. Нажать ссылку Реферальная программа.",
+      "command": "click",
+      "target": "linkText=Реферальная программа",
+      "targets": [
+        ["linkText=Реферальная программа", "linkText"],
+        ["css=.AsideNav__Item:nth-child(3) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/referalnaya-programma')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реферальная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "89684e10-316d-4192-964a-905f2299782d",
+    "name": "2.4.Корректность номера телефона и эл.почты",
+    "commands": [{
+      "id": "9163ff22-8e9b-468c-86e4-b49e20bd32a8",
+      "comment": "1. Перейти по ссылке https://kistochki.ru/akcii.",
+      "command": "open",
+      "target": "/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "262a2460-7968-4614-a771-01ffc8e62e15",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1080x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9557000-e2f5-4f5c-a8d3-394df4dfa2fc",
+      "comment": "2. Проверить корректность номера телефона контроля качества в меню страницы.",
+      "command": "verifyText",
+      "target": "css=.Contact__Phone",
+      "targets": [],
+      "value": "+7 (812) 604-78-77"
+    }, {
+      "id": "d9e73c97-5483-4f85-ae19-9b352b60d21a",
+      "comment": "3. Проверить корректность номера телефона контроля качества в ссылке href.",
+      "command": "verifyText",
+      "target": "xpath=//a[contains(@href, 'tel:+78126047877')]",
+      "targets": [],
+      "value": "+7 (812) 604-78-77"
+    }, {
+      "id": "96017b46-f567-4a06-a7c4-33815727811d",
+      "comment": "4. Проверить корректность адреса эл.почты контроля качества в меню страницы.",
+      "command": "verifyText",
+      "target": "css=.Contact__Email",
+      "targets": [],
+      "value": "info@kistochki.ru"
+    }, {
+      "id": "3252146e-d55a-488a-b2ae-41b5f1fc140a",
+      "comment": "5. Проверить корректность адреса эл.почты контроля качества в ссылке href.",
+      "command": "verifyText",
+      "target": "xpath=//a[contains(@href, 'mailto: info@kistochki.ru')]",
+      "targets": [
+        ["linkText=info@kistochki.ru", "linkText"],
+        ["css=.Contact__Email", "css:finder"],
+        ["xpath=//a[contains(text(),'info@kistochki.ru')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'mailto: info@kistochki.ru')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'info@kistochki.ru')]", "xpath:innerText"]
+      ],
+      "value": "info@kistochki.ru"
+    }]
+  }],
+  "suites": [{
+    "id": "3a08529c-c908-48f2-a0ba-9de225aad56b",
+    "name": "Акции Кисточек",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["da0442f9-b9f9-4fba-8e0d-478d95a61cb5", "89684e10-316d-4192-964a-905f2299782d"]
+  }],
+  "urls": ["https://kistochki.ru/"],
+  "plugins": []
+}

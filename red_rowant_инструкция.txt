@@ -1,0 +1,8 @@
+Инструкция по запуску автотеста red_rowant.side:
+
+1. Загрузить файл автотеста на локальный компьютер.
+2. Установить в браузер плагин Selenium IDE (например, для Chrome: https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd).
+3. Запустить плагин в браузере.
+4. Открыть файл автотеста (Open an existing project).
+5. Запустить тесты (Run all tests или Run current test).
+6. Смотреть журнал выполнения тестов (Log).
